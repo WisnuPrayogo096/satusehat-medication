@@ -1,13 +1,13 @@
 <?php
-define('WS_AUTH_API', "https://api-satusehat-stg.dto.kemkes.go.id/oauth2/v1"); 
-define('WS_BASE_URL', "https://api-satusehat-stg.dto.kemkes.go.id/fhir-r4/v1");
-define('WS_CONSENT_URL', "https://api-satusehat-stg.dto.kemkes.go.id/consent/v1");
+define('WS_AUTH_API', ""); 
+define('WS_BASE_URL', "");
+define('WS_CONSENT_URL', "");
 define('WS_CONFIG', [
-    'client_id' => '9QTHkApmf0Wq3XC4csG2ABSexbb3dn23mJpW8fTUoSaJlhOw', 
-    'client_secret' => 'JwGqAVmDtEiNXVedQFQSaQTyGZM73hMGCi308M73KbZDCrYbLgGH7mXaKAoTe94F',
+    'client_id' => '', 
+    'client_secret' => '',
 ]);
-define('ORG_ID', '16e50caa-6e41-4ecd-a36a-3801c51f973b');
-define('FAR_ID', 'c31817cf-6169-471c-a4e1-ea00ad2a0c5b');
+define('ORG_ID', '');
+define('FAR_ID', '');
 
 function authToken()
 {
